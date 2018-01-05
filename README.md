@@ -12,3 +12,8 @@ required modules/nodes (in addition to the default modules):
 - node-red-contrib-usb
 - node-red-dashboard
 - node-red-node-sqlite
+
+helpfull informations:
+
+how to get write permission to Strava:
+http://yizeng.me/2017/01/11/get-a-strava-api-access-token-with-write-permission/
