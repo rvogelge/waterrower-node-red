@@ -19,4 +19,5 @@ Just import all nodes into noder red. Should be 2 Tabs with serveral links betwe
 ## Helpfull informations:
 
 how to get write permission to Strava:
+
 http://yizeng.me/2017/01/11/get-a-strava-api-access-token-with-write-permission/
