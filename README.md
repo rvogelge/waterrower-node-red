@@ -15,8 +15,8 @@ On the dashboard you will see:
 - and the average stroke rate per minute
 
 ## Installation:
-Just import all nodes into node red. There should be 2 Tabs with serveral links between.
-You ned to crate a table to store the workout data manually:
+Just import all nodes into node red. There should be 2 tabs with serveral links between.
+You ned to create a table to store the workout data manually:
 
 CREATE TABLE workout (
     timestamp DATETIME,
@@ -26,10 +26,10 @@ CREATE TABLE workout (
     title     STRING,
     comment   STRING
 );
-Adjust the path in the SQLite node accordingly 
+Adjust the path in the SQLite node accordingly.
 
 The application detects if a WR is plugged in the USB port of the RPi
-Just start rowing and save your workout after you have finished
+Just start rowing and save your workout after you have finished.
 
 
 ## Required modules/nodes (in addition to the default modules):
