@@ -7,8 +7,17 @@ This node red flows can be used:
 - save this data into a SQLite database
 - and upload the workout to Strava 
 
-## How to start:
-Just import all nodes into noder red. Should be 2 Tabs with serveral links between.
+Currently, there are no different types of workouts available. You can just start rowing.
+On the dashboard you will see: 
+- the distance
+- time elapsed 
+- total stroke count 
+- and the average stroke rate per minute
+
+## Installation:
+Just import all node into noder red. Should be 2 Tabs with serveral links between.
+The application detects if a WR is plugged in the USB port of the RPi
+Just start rowing and save your workout after you have finished
 
 ## Required modules/nodes (in addition to the default modules):
 - node-red-contrib-globalgetset
