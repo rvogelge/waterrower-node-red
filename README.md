@@ -25,7 +25,7 @@ CREATE TABLE workout (
     title     STRING,
     comment   STRING
 );
-Adjust the path in the SQLite node accordingly
+Adjust the path in the SQLite node accordingly 
 
 The application detects if a WR is plugged in the USB port of the RPi
 Just start rowing and save your workout after you have finished
