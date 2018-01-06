@@ -18,7 +18,7 @@ On the dashboard you will see:
 Just import all nodes into node red. There should be 2 Tabs with serveral links between.
 You ned to crate a table to store the workout data manually:
 
-CREATE TABLE workout (
+CREATE TABLE workout (\r
     timestamp DATETIME,
     exercise  STRING,
     distance  DECIMAL (6, 2),
