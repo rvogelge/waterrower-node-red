@@ -15,7 +15,7 @@ On the dashboard you will see:
 - and the average stroke rate per minute
 
 ## Installation:
-Just import all node into noder red. Should be 2 Tabs with serveral links between.
+Just import all nodes into node red. There should be 2 Tabs with serveral links between.
 The application detects if a WR is plugged in the USB port of the RPi
 Just start rowing and save your workout after you have finished
 
