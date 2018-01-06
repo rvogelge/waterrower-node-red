@@ -16,8 +16,20 @@ On the dashboard you will see:
 
 ## Installation:
 Just import all nodes into node red. There should be 2 Tabs with serveral links between.
+You ned to crate a table to store the workout data manually:
+CREATE TABLE workout (
+    timestamp DATETIME,
+    exercise  STRING,
+    distance  DECIMAL (6, 2),
+    duration  TIME,
+    title     STRING,
+    comment   STRING
+);
+Adjust the path in the SQLite node accordingly
+
 The application detects if a WR is plugged in the USB port of the RPi
 Just start rowing and save your workout after you have finished
+
 
 ## Required modules/nodes (in addition to the default modules):
 - node-red-contrib-globalgetset
