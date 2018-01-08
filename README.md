@@ -2,8 +2,8 @@
 
 This application is implemented on a Raspberry Pi 3 with standard Noobs installation of Raspian
 
-This node red flows can be used: 
-- to read workout data from the Waterrowers USB interface
+This node red flows can be used to: 
+- read workout data from the Waterrowers USB interface
 - save this data into a SQLite database
 - and upload the workout to Strava 
 
@@ -16,7 +16,7 @@ On the dashboard you will see:
 
 ## Installation:
 Just import all nodes into node red. There should be 2 tabs with serveral links between.
-You ned to create a table to store the workout data manually:
+You need to create a table to store the workout data manually:
 
 CREATE TABLE workout (
     timestamp DATETIME,
